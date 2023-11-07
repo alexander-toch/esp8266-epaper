@@ -3,6 +3,10 @@
 Inspired by [Weatherman Dashboard for ESPHome](https://github.com/Madelena/esphome-weatherman-dashboard).
 Implemented Partial display refresh for nicer appearance and Deep Sleep for longer battery life time.
 
+<img src="./images/epaper.jpg" alt="epaper" style="zoom: 25%;" />
+
+
+
 ## Hardware
 
 - Waveshare 13187 7.5inch e-Paper [link](https://www.welectron.com/Waveshare-13187-75inch-e-Paper)
@@ -32,3 +36,9 @@ After boot, the ESP8288 makes a request to `http_endpoint` (Home Assistant senso
 ## Notes
 - Connect `D0/GPIO16` to the `RTS` pin in order to get the deep-sleep working (afterwards, resetting and holding the flash button is needed for flashing)
 - Don't connect USB and battery at the same time
+
+
+
+<img src="./images/epaper-back.jpg" alt="epaper-back" style="zoom:25%;" />
+
+(soldering + the mount on the back could be improved 😅)
