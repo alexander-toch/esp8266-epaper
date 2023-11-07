@@ -38,6 +38,11 @@ After boot, the ESP8288 makes a request to `http_endpoint` (Home Assistant senso
 - Don't connect USB and battery at the same time
 - fontconvert: if the degree symbol should be included, define the right end character. I.e. `./fontconvert GothamRounded-Bold.otf 48 32 177`
 
+## Future Ideas
+- Battery level indicator (similar to [here](https://ezcontents.org/esp8266-battery-level-meter)
+- OTA Updates via [HTTP server](https://arduino-esp8266.readthedocs.io/en/latest/ota_updates/readme.html#http-server)
+- Presence: show people present/away
+
 
 
 <img src="./images/epaper-back.jpg" alt="epaper-back" style="zoom:25%;" />
