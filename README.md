@@ -36,6 +36,7 @@ After boot, the ESP8288 makes a request to `http_endpoint` (Home Assistant senso
 ## Notes
 - Connect `D0/GPIO16` to the `RTS` pin in order to get the deep-sleep working (afterwards, resetting and holding the flash button is needed for flashing)
 - Don't connect USB and battery at the same time
+- fontconvert: if the degree symbol should be included, define the right end character. I.e. `./fontconvert GothamRounded-Bold.otf 48 32 177`
 
 
 
