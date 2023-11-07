@@ -28,3 +28,7 @@ After boot, the ESP8288 makes a request to `http_endpoint` (Home Assistant senso
 - add `home-assistant/espdata.yml` to your Home Assistant `configuration.yml` and reload the configuration
 - open in VSCode with `PlatformIO` extension installed
 - Connect the ES8266, Build, Upload
+
+## Notes
+- Connect `D0/GPIO16` to the `RTS` pin in order to get the deep-sleep working (afterwards, resetting and holding the flash button is needed for flashing)
+- Don't connect USB and battery at the same time
